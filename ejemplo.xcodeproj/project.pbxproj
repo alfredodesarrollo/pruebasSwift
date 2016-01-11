@@ -6,16 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		648EDC211C4379D3002EA45D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 648EDC201C4379D3002EA45D /* AppDelegate.m */; };
-		648EDC241C4379D3002EA45D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 648EDC231C4379D3002EA45D /* main.m */; };
-		648EDC271C4379D3002EA45D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648EDC261C4379D3002EA45D /* ViewController.m */; };
-		648EDC291C4379D3002EA45D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648EDC281C4379D3002EA45D /* Assets.xcassets */; };
-		648EDC2C1C4379D3002EA45D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648EDC2A1C4379D3002EA45D /* Main.storyboard */; };
-		648EDC371C4379D3002EA45D /* ejemploTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 648EDC361C4379D3002EA45D /* ejemploTests.m */; };
-		648EDC421C4379D3002EA45D /* ejemploUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 648EDC411C4379D3002EA45D /* ejemploUITests.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		648EDC331C4379D3002EA45D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,21 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		648EDC1C1C4379D3002EA45D /* ejemplo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ejemplo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		648EDC1F1C4379D3002EA45D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		648EDC201C4379D3002EA45D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		648EDC231C4379D3002EA45D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		648EDC251C4379D3002EA45D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		648EDC261C4379D3002EA45D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		648EDC281C4379D3002EA45D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		648EDC2B1C4379D3002EA45D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		648EDC2D1C4379D3002EA45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		648EDC321C4379D3002EA45D /* ejemploTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ejemploTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		648EDC361C4379D3002EA45D /* ejemploTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ejemploTests.m; sourceTree = "<group>"; };
-		648EDC381C4379D3002EA45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		648EDC3D1C4379D3002EA45D /* ejemploUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ejemploUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		648EDC411C4379D3002EA45D /* ejemploUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ejemploUITests.m; sourceTree = "<group>"; };
-		648EDC431C4379D3002EA45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648EDC1C1C4379D3002EA45D /* ejemplo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ejemplo.app; path = /Users/alfredopatino/Documents/programas_ios/ejemplo/build/Debug/ejemplo.app; sourceTree = "<absolute>"; };
+		648EDC321C4379D3002EA45D /* ejemploTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ejemploTests.xctest; path = /Users/alfredopatino/Documents/programas_ios/ejemplo/build/Debug/ejemploTests.xctest; sourceTree = "<absolute>"; };
+		648EDC3D1C4379D3002EA45D /* ejemploUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ejemploUITests.xctest; path = /Users/alfredopatino/Documents/programas_ios/ejemplo/build/Debug/ejemploUITests.xctest; sourceTree = "<absolute>"; };
 		648EDC4F1C437D55002EA45D /* tarea.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = tarea.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,62 +59,15 @@
 			isa = PBXGroup;
 			children = (
 				648EDC1E1C4379D3002EA45D /* ejemplo */,
-				648EDC351C4379D3002EA45D /* ejemploTests */,
-				648EDC401C4379D3002EA45D /* ejemploUITests */,
-				648EDC1D1C4379D3002EA45D /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		648EDC1D1C4379D3002EA45D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				648EDC1C1C4379D3002EA45D /* ejemplo.app */,
-				648EDC321C4379D3002EA45D /* ejemploTests.xctest */,
-				648EDC3D1C4379D3002EA45D /* ejemploUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		648EDC1E1C4379D3002EA45D /* ejemplo */ = {
 			isa = PBXGroup;
 			children = (
 				648EDC4F1C437D55002EA45D /* tarea.playground */,
-				648EDC1F1C4379D3002EA45D /* AppDelegate.h */,
-				648EDC201C4379D3002EA45D /* AppDelegate.m */,
-				648EDC251C4379D3002EA45D /* ViewController.h */,
-				648EDC261C4379D3002EA45D /* ViewController.m */,
-				648EDC281C4379D3002EA45D /* Assets.xcassets */,
-				648EDC2A1C4379D3002EA45D /* Main.storyboard */,
-				648EDC2D1C4379D3002EA45D /* Info.plist */,
-				648EDC221C4379D3002EA45D /* Supporting Files */,
 			);
 			path = ejemplo;
-			sourceTree = "<group>";
-		};
-		648EDC221C4379D3002EA45D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				648EDC231C4379D3002EA45D /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		648EDC351C4379D3002EA45D /* ejemploTests */ = {
-			isa = PBXGroup;
-			children = (
-				648EDC361C4379D3002EA45D /* ejemploTests.m */,
-				648EDC381C4379D3002EA45D /* Info.plist */,
-			);
-			path = ejemploTests;
-			sourceTree = "<group>";
-		};
-		648EDC401C4379D3002EA45D /* ejemploUITests */ = {
-			isa = PBXGroup;
-			children = (
-				648EDC411C4379D3002EA45D /* ejemploUITests.m */,
-				648EDC431C4379D3002EA45D /* Info.plist */,
-			);
-			path = ejemploUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +157,7 @@
 				Base,
 			);
 			mainGroup = 648EDC131C4379D2002EA45D;
-			productRefGroup = 648EDC1D1C4379D3002EA45D /* Products */;
+			productRefGroup = 648EDC131C4379D2002EA45D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -242,8 +173,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648EDC291C4379D3002EA45D /* Assets.xcassets in Resources */,
-				648EDC2C1C4379D3002EA45D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648EDC271C4379D3002EA45D /* ViewController.m in Sources */,
-				648EDC241C4379D3002EA45D /* main.m in Sources */,
-				648EDC211C4379D3002EA45D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648EDC371C4379D3002EA45D /* ejemploTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648EDC421C4379D3002EA45D /* ejemploUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,17 +228,6 @@
 			targetProxy = 648EDC3E1C4379D3002EA45D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		648EDC2A1C4379D3002EA45D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				648EDC2B1C4379D3002EA45D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		648EDC441C4379D3002EA45D /* Debug */ = {
