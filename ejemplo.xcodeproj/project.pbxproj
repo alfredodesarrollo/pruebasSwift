@@ -49,6 +49,7 @@
 		648EDC3D1C4379D3002EA45D /* ejemploUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ejemploUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		648EDC411C4379D3002EA45D /* ejemploUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ejemploUITests.m; sourceTree = "<group>"; };
 		648EDC431C4379D3002EA45D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648EDC4F1C437D55002EA45D /* tarea.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = tarea.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		648EDC1E1C4379D3002EA45D /* ejemplo */ = {
 			isa = PBXGroup;
 			children = (
+				648EDC4F1C437D55002EA45D /* tarea.playground */,
 				648EDC1F1C4379D3002EA45D /* AppDelegate.h */,
 				648EDC201C4379D3002EA45D /* AppDelegate.m */,
 				648EDC251C4379D3002EA45D /* ViewController.h */,
@@ -401,6 +403,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ejemplo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11;
 				PRODUCT_BUNDLE_IDENTIFIER = alfredo.ejemplo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -413,6 +416,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ejemplo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11;
 				PRODUCT_BUNDLE_IDENTIFIER = alfredo.ejemplo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
